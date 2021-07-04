@@ -4,8 +4,9 @@ try:
     n=int(n)
 except ValueError:
     print('This is a string, so the answer may not be what you expect.')
-
-n=int(n)
+    str=1
+if str==1:
+    n=int(n)
 n=str(n)
 d=''
 for x in n:
